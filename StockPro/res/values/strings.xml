@@ -9,6 +9,7 @@
     <!-- Strings for Main Screen -->
     <string name="stock_quote">Stock Quote</string>
     <string name="manage_portfolio">Manage Portfolio</string>
+    <string name="refresh_stuff">Refreshes stuff</string>
 
     <!-- Strings for Stock Quote Screen -->
     <string name="symbol">Symbol</string>

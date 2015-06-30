@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/title"
             android:layout_toRightOf="@+id/title"
-            android:contentDescription="refreshes stuff"
+            android:contentDescription="@string/refresh_stuff"
             android:src="@drawable/refresh" />
 
         <ImageButton

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StockPro</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_stock_quote">StockQuoteActivity</string>
+    <string name="title_activity_manage_portfolio">ManagePortfolioActivity</string>
+
+    <!-- Strings for Main Screen -->
+    <string name="stock_quote">Stock Quote</string>
+    <string name="manage_portfolio">Manage Portfolio</string>
+
+    <!-- Strings for Stock Quote Screen -->
+    <string name="symbol">Symbol</string>
+    <string name="get">Get</string>
+    <string name="refreshed_at">Refreshed at:</string>
+    <string name="symbol_colon">Symbol:</string>
+    <string name="company">Company:</string>
+    <string name="current_price">Current Price:</string>
+    <string name="week_high">52 Week High:</string>
+    <string name="week_low">52 Week Low:</string>
+    <string name="volume">Volume:</string>
+    <string name="change">Change:</string>
+    <string name="add_to_portfolio">Add to Portfolio</string>
+
+    <!-- Placeholders for EditText Tags -->
+    <string name="time_x">XX/XX/XXXX XX:XX</string>
+    <string name="five_x">XXXXX</string>
+
+    <!-- Strings for Manage Portfolio Screen -->
+    <string name="quantity">Qty</string>
+    <string name="add">Add</string>
+    <string name="symbol_abbreviation_intel">INTC</string>
+    <string name="price_per_stock">200</string>
+    <string name="percentage">(+1.0%)</string>
+    <string name="full_symbol_name_intel">Intel Corporation</string>
+    <string name="stock_amount">10</string>
+    <string name="x_button">X</string>
+    <string name="stock_qty_description">Only 5 stocks in portfolio</string>
+    <string name="title_activity_manage_preferences">ManagePreferencesActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_stock_detail_more_screen">StockDetailMoreScreenActivity</string>
+    <string name="graph_description">this is a placeholder graph picture</string>
+    <string name="placeholder_text">This is the Detail Screen where I would present
+         current information on this particular stock. The info is not displayed right 
+        now because this is an educational project for learning purposes. \n \n I had a 
+        great time working on this project. I learned a lot and it was really fun!! </string>
+    <string name="list">List</string>
+    <string name="less">Less</string>
+    <string name="more">More</string>
+    <string name="arr_desc">arrow for up and down</string>
+
+</resources>

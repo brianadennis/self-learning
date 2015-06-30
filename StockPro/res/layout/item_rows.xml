@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/sym"
+            style="@style/IndividualStockEntries"
+            android:text="@string/symbol_abbreviation_intel"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/amount"
+            style="@style/IndividualStockEntries"
+            android:text="@string/price_per_stock" />
+        <TextView
+            android:id="@+id/percent"
+            style="@style/IndividualStockEntries"
+            android:text="@string/percentage" />
+        <ImageButton
+            android:id="@+id/remove"
+            style="@style/DeleteWithX"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_menu_delete"
+            android:onClick="removeStockOnClickHandler" />   
+    </LinearLayout>         
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+         <TextView
+              android:id="@+id/fullName"
+              style="@style/IndividualStockEntries"
+              android:text="@string/full_symbol_name_intel" />
+         <TextView
+             android:id="@+id/price"
+             style="@style/IndividualStockEntries" />
+
+         <ImageView
+             android:id="@+id/arrow"
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:layout_weight="1"
+             android:contentDescription="@string/arr_desc"
+             android:src="@drawable/red_down_arrow" />
+       
+    </LinearLayout> 
+    <View
+           style="@style/LineSeparator" />  
+    
+</LinearLayout>

@@ -1,0 +1,89 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="MenuButtonMain" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">160dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_color_chrome_yellow</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@drawable/button_with_rounded_corners</item>
+        <item name="android:textStyle">bold</item>  
+    </style>
+    
+    <style name="EditTextInputMenuItems" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_color_chrome_yellow</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:text">@string/five_x</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+    
+    <style name="TextViewLabelItems" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_color_chrome_yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    
+    <style name="EditTextInputSymbolQuantity" parent="@android:style/TextAppearance.Medium">
+        <item name="android:background">@drawable/textedit_with_rounded_corners</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">10dp</item>
+        <item name ="android:layout_alignParentBottom">true</item>
+    </style>
+    
+    <style name="HeaderFooter" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_color_amber</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+    
+    <style name="IndividualStockEntries" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/my_color_chrome_yellow</item>
+        <item name="android:layout_weight">5</item>
+    </style>
+    
+    <style name="DeleteWithX" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">25dp</item>
+        <item name="android:textColor">@color/my_color_chrome_yellow</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/my_grey_button1</item>
+        <item name="android:text">@string/x_button</item>
+    </style>
+    
+    <style name="LineSeparator" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">@color/my_color_chrome_yellow</item>
+    </style>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>

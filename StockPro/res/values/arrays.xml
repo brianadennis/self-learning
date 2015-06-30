@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="updateInterval">
+        <item name="5000">Every 5 seconds</item>
+        <item name="30000">Every 30 seconds</item>
+        <item name="60000">Every 1 minute</item>
+        <item name="300000">Every 5 minutes</item>
+        <item name="1800000">Every 30 minutes</item>
+    </string-array>
+    
+    <string-array name="updateIntervalValues">
+        <item name="5000">5000</item>
+        <item name="30000">30000</item>
+        <item name="60000">60000</item>
+        <item name="300000">300000</item>
+        <item name="1800000">1800000</item>
+    </string-array>
+    
+    <string-array name="themes">
+        <item name="light">Light</item>
+        <item name="medium">Medium</item>
+    </string-array>
+    
+    <string-array name="themesValues">
+        <item name="lightTheme">android:Theme.Light</item>
+        <item name="mediumTheme">android:Theme.Medium</item>
+    </string-array>
+
+</resources>

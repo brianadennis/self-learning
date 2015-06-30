@@ -1,0 +1,132 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.activities.stockpro.StockDetailMoreScreenActivity"
+    android:background="@drawable/black_plaid" >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+	    <ImageView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/stock_graph"
+	        android:contentDescription="@string/graph_description"
+	        android:paddingTop="25dp"
+	        android:paddingBottom="2dp" />
+	
+	    <TableLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="3.68"
+	        android:orientation="vertical"
+	        android:paddingTop="10dp"
+	        android:paddingBottom="0dp" >
+	
+	        <TableRow
+	            android:id="@+id/tableRow1"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                style="@style/TextViewLabelItems"
+	                android:text="@string/refreshed_at" />
+	
+	            <TextView
+	                android:id="@+id/dateAndTimeMore"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:orientation="horizontal"
+	                android:text="@string/time_x"
+	                android:textStyle="bold"
+	                android:layout_weight="3"
+	                android:textColor="@color/my_color_chrome_yellow" />
+	        </TableRow>
+	
+	        <TableRow
+	            android:id="@+id/tableRow2"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                style="@style/TextViewLabelItems"
+	                android:text="@string/symbol_colon" />
+	
+	            <TextView
+	                android:id="@+id/stockNameMore"
+	                style="@style/TextViewLabelItems"
+	                android:text="@string/five_x"
+	                android:layout_weight="3" />
+	        </TableRow>
+	        
+	        <TableRow
+	            android:id="@+id/tableRow3"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="horizontal" >
+	
+	            <TextView
+	                style="@style/TextViewLabelItems"
+	                android:text="@string/company" />
+	
+	            <TextView
+	                android:id="@+id/companyNameMore"
+	                style="@style/TextViewLabelItems"
+	                android:text="@string/five_x"
+	                android:layout_weight="3" />
+	        </TableRow>
+	    </TableLayout>
+	    
+	    <TextView
+	        android:id="@+id/bigText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="@string/placeholder_text"
+            android:textColor="@color/my_color_chrome_yellow"
+            android:layout_weight="1" />
+	    
+	    <RelativeLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="66dp"
+	        android:orientation="horizontal" >
+	
+	        <Button
+	            android:id="@+id/list2"
+	            android:layout_width="80dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentLeft="true"
+	            android:layout_alignParentStart="true"
+	            android:background="@drawable/button_with_rounded_corners"
+	            android:text="@string/list"
+	            android:textColor="@color/my_color_chrome_yellow"
+	            android:textStyle="bold" />
+	
+	        <Button
+	            android:id="@+id/less"
+	            android:layout_width="80dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_alignParentRight="true"
+	            android:layout_alignParentEnd="true"
+	            android:layout_gravity="center_horizontal" 
+	            android:background="@drawable/button_with_rounded_corners"
+	            android:textStyle="bold"
+	            android:text="@string/less"
+	            android:textColor="@color/my_color_chrome_yellow" />
+	    </RelativeLayout>
+    
+    </LinearLayout>
+    
+</ScrollView>
